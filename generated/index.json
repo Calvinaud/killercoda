@@ -1,0 +1,50 @@
+{
+    "title": "Configure Minimum and Maximum CPU Constraints for a Namespace",
+    "description": "  Define a range of valid CPU resource limits for a namespace, so that every new Pod   in that namespace falls within the range you configure. ",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "title": "Create a namespace",
+          "text": "step1.md"
+        },
+        {
+          "title": "Create a LimitRange and a Pod",
+          "text": "step2.md"
+        },
+        {
+          "title": "Delete the Pod",
+          "text": "step3.md"
+        },
+        {
+          "title": "Attempt to create a Pod that exceeds the maximum CPU constraint",
+          "text": "step4.md"
+        },
+        {
+          "title": "Attempt to create a Pod that does not meet the minimum CPU request",
+          "text": "step5.md"
+        },
+        {
+          "title": "Create a Pod that does not specify any CPU request or limit",
+          "text": "step6.md"
+        },
+        {
+          "title": "Enforcement of minimum and maximum CPU constraints",
+          "text": "step7.md"
+        },
+        {
+          "title": "Motivation for minimum and maximum CPU constraints",
+          "text": "step8.md"
+        },
+        {
+          "title": "Clean up",
+          "text": "step9.md"
+        }
+      ]
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-1node"
+    }
+  }

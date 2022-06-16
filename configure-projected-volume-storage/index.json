@@ -1,0 +1,22 @@
+{
+    "title": "Configure a Pod to Use a Projected Volume for Storage",
+    "description": "",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "title": "Configure a projected volume for a pod",
+          "text": "step1.md"
+        },
+        {
+          "title": "Clean up",
+          "text": "step2.md"
+        }
+      ]
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-1node"
+    }
+  }

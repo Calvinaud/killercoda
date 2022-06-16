@@ -1,0 +1,42 @@
+{
+    "title": "Configure Minimum and Maximum CPU Constraints for a Namespace",  
+    "description": "Interactive tutorial for https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/cpu-constraint-namespace/",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "title": "Create namespace",
+          "text": "step1.md"
+        },
+        {
+            "title": "Create a LimitRange",
+            "text": "step2.md"
+        },
+        {
+            "title": "Create a pod with correct limit/request",
+            "text": "step3.md"
+        },
+        {
+            "title": "Attempt to create a Pod that exceeds the maximum CPU constraint",
+            "text": "step4.md"
+        },
+        {
+            "title": "Attempt to create a Pod that does not meet the minimum CPU request",
+            "text": "step5.md"
+        },
+        {
+            "title": "Create a Pod that does not specify any CPU request or limit",
+            "text": "step6.md"
+        },
+        {
+            "title": "Conclusion",
+            "text": "step7.md"
+        }
+      ]
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-1node"
+    }
+  }

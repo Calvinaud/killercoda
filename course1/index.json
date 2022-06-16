@@ -1,0 +1,36 @@
+{
+  "title": "Docker: Grundlagen",
+  "description": "Lasst uns mit Containern spielen um die Grundlagen von Docker zu lernen",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "prepare-scenario.sh",
+      "background": "pull-images.sh"
+    },
+    "steps": [
+      {
+        "title": "Container und Container Images",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Tags",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Tags (2)",
+        "text": "step3/text.md"
+      },
+      {
+        "title": "Tags (3)",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

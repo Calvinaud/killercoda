@@ -1,0 +1,19 @@
+{
+    "title": "K9s tutorial",  
+    "description": "Interactive tutorial for https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/cpu-constraint-namespace/",
+    "details": {
+      "intro": {
+        "text": "intro.md",
+        "background": "background.sh"
+      },
+      "steps": [
+        {
+          "title": "Starting k9s",
+          "text": "step1.md"
+        }
+      ]
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-1node"
+    }
+  }

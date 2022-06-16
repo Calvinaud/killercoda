@@ -1,0 +1,26 @@
+{
+    "title": "Configure a Pod Quota for a Namespace",
+    "description": "  Restrict how many Pods you can create within a namespace. ",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "title": "Create a namespace",
+          "text": "step1.md"
+        },
+        {
+          "title": "Create a ResourceQuota",
+          "text": "step2.md"
+        },
+        {
+          "title": "Clean up",
+          "text": "step3.md"
+        }
+      ]
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-1node"
+    }
+  }
